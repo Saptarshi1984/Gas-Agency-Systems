@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div id="navContainer">
+    <nav id="navBar">
+        <a class="logo" href="#">G.A.S</a>
+        <div id="navBox">
+            <!-- <a class="navLink" href="#">Services</a> -->
+            <a class="navLink" href="#">About Us</a>
+            <a class="navLink" href="#">Contact Us</a>
+            <a id="adminName" class="navLink" ></a>
+            <a id="adminLogout" class="navLink" href="#">Logout</a>
+        </div>        
+    </nav>
+    </div>
+
+     <div id="dashContainer">
+
+    <div id="left-panel">
+<!--      <div id="user-info">
+        <img src="" alt="profile-img" >
+        <button type="button">Upload</button>
+        <h4 id="admin-name">Name:</h4>
+        <h4 id="admin-email">Email:</h4>
+    </div> -->
+    <div id="dashLinkWrap">
+        <a id="adminDashboardTab" href="" class="dashLink active">Dashboard</a>
+        <a id="requestTab" href="" class="dashLink">Requests</a>
+        <a id="actionsTab" href="" class="dashLink">Actions</a>
+        
+    </div>
+    </div>
+
+    <div id="dash">
+
+        <div id="adminDashboardSec">
+
+            <h1>Admin Dashboard</h1> 
+              <div id="adminServices">
+                <div id="adminReq">
+                  <a id="accTotal" >
+                    <h2 id="numSubscriber"></h2>
+                    <h3>Total Subscribers</h3>
+                  </a>
+                </div>
+
+                 <div id="adminReq">
+                  <a id="pendReq" >
+                    <h2 id="totalOrders"></h2>
+                    <h3>Total Order Placed</h3>
+                  </a>
+                </div>
+
+                <div id="adminReq">
+                  <a id="ordPros" >
+                    <h2 id="totalRevenue"></h2>
+                    <h3>Total Revenue</h3>
+                  </a>
+                </div>
+            </div>  
+                <hr>               
+        </div>
+
+        <div id="adminActionsSec" style="display: none;">
+          <h1>Actions</h1>
+          <h2 style="text-align: center;">Currently, there is nothing to show.</h2>
+        </div>
+
+        <div id="adminRequestSec" style="display: none;">
+          <h1>Requests for Additional Cylinders</h1>
+              <div id="tableSec">
+                  <table id="requestsTable">
+                          <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>Date</th>
+                              <th>Request ID</th>
+                              <th>Name</th>
+                              <th>User ID</th>
+                              <th>Status</th>
+                              <th>Actions</th>
+                            </tr>
+                          </thead>
+                   <tbody id="requestsBody">
+                          <!-- Rows will be inserted here -->
+                  </tbody>
+                  </table>
+            </div>
+        </div>
+
+       
+<script type="module" src=".\src\admin.js"></script>
+<script src="https://kit.fontawesome.com/eac29af5b4.js" crossorigin="anonymous"></script>
+</body>
+</html>
