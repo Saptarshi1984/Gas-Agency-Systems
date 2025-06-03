@@ -30,7 +30,7 @@ const statusMsg = document.getElementById('status');
         const user = userCredential.user;
         /* alert("You are in login"); */
 
-        window.location.href = '/dashboard.html';
+        window.location.href = '/GasAgency/dashboard.html';
       })
       .catch((error) => {
         console.error(error);
