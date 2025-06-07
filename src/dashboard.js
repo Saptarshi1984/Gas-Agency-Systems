@@ -59,7 +59,7 @@ onAuthStateChanged(auth, async (user) => {
     signOut(auth).then(() => {
       // Sign-out successful.
       /* alert('You are Signed Out.'); */
-      window.location.href = '/GasAgency/index.html';
+      window.location.href = "/GasAgency/";
     }).catch((error) => {
       alert('An error occured:'+ error.Message);
       // An error happened.
