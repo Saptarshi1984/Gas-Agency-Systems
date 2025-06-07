@@ -50,7 +50,7 @@ onAuthStateChanged(auth, async (user) => {
       console.log("No user data found in Firestore.");
     }
   } else {
-    window.location.href = "/index.html";
+    window.location.href = "/GasAgency/index.html";
   }
 });
   //SignOut function
@@ -59,7 +59,7 @@ onAuthStateChanged(auth, async (user) => {
     signOut(auth).then(() => {
       // Sign-out successful.
       /* alert('You are Signed Out.'); */
-      window.location.href = '/index.html';
+      window.location.href = '/GasAgency/index.html';
     }).catch((error) => {
       alert('An error occured:'+ error.Message);
       // An error happened.
@@ -263,7 +263,7 @@ document.getElementById('addCylinder').addEventListener('click', async () => {
 
   if(!currentUser) {
     alert('User not Logged in');
-    window.location.href = '/index.html';
+    window.location.href = '/GasAgency/index.html';
   }
       
    const userDocRef = doc(db, 'users', currentUser.uid);

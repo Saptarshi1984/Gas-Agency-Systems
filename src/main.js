@@ -147,7 +147,7 @@ const statusMsg = document.getElementById('status');
 
       sessionStorage.setItem("AdminEmail", matched_admin.email);
 
-      window.location.href = '/admin.html';
+      window.location.href = '/GasAgency/admin.html';
     } else {
       alert.error('Invalid Credentials, Please try again');
     }

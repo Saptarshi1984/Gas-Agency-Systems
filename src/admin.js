@@ -25,7 +25,7 @@ window.onload = async () => {
 
   if (!AdminEmail) {
     alert.error("Admin does not exists, Login Error");
-    window.location.href = "/index.html";
+    window.location.href = "/GasAgency/index.html";
   } else {
     const adminSnapShot = await getDocs(collection(db, "admin"));
     const adminData = adminSnapShot.docs.map((doc) => doc.data());
@@ -195,7 +195,7 @@ admin_requestTab.addEventListener("click", async (e) => {
 document.getElementById("adminLogout").addEventListener("click", () => {
   try {
     sessionStorage.removeItem("AdminEmail"); // Optional: clear session
-    window.location.href = "/index.html";
+    window.location.href = "/GasAgency/index.html";
   } catch (error) {
     alert("An error occurred: " + error.message);
   }
