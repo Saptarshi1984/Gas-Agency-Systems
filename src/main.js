@@ -70,7 +70,7 @@ const statusMsg = document.getElementById('status');
       });
     }
 
-    window.location.href = '/dashboard.html';
+    window.location.href = '/GasAgency/dashboard.html';
 
   } catch (error) {
     const errorCode = error.code;
