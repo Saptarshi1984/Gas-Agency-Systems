@@ -1,4 +1,5 @@
 import './style.scss';
+import './formLoader.js';
 import {auth} from './firebase.js';
 import {doc, setDoc, getFirestore, getDoc, getDocs, collection} from "firebase/firestore";
 import {signInWithEmailAndPassword, createUserWithEmailAndPassword, signInWithRedirect} from "firebase/auth";
