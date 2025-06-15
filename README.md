@@ -1,25 +1,65 @@
-# Gas Agency System
 
-## Overview
+# 🛢️ Gas Agency System
 
-The **Gas Agency System** is a client-facing web application designed to simplify gas cylinder bookings. Users can register, log in, book cylinders, make payments, and track their booking history. Admins can manage user accounts, approve or deny bookings, and send system-wide notifications.
+[Visit Homepage](https://saptarshi1984.github.io/GasAgency/)
 
-> 🔗 **Live Demo**: [https://yourusername.github.io/gas-agency-system](https://yourusername.github.io/gas-agency-system)
+An online gas cylinder booking platform designed for client convenience and administrative efficiency. This system replaces the outdated, time-consuming phone call method with a modern web-based solution.
 
-## Features
+---
 
-### For Users
-- Register and log in securely.
-- Book cylinders and track booking history.
-- Receive email notifications for bookings and balance updates.
+## 🚀 Project Objectives
 
-### For Admins
-- Manage user profiles and bookings.
-- Approve/reject extra cylinder requests.
-- Monitor booking activity through logging.
+* Simplify gas cylinder booking for customers via an online platform.
+* Enable admins to manage customer requests, bookings, and notifications.
+* Support dual account systems (User and Admin) with distinct privileges.
+* Provide secure and testable code structure with Firebase backend integration.
 
-## Technologies Used
+---
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend & Database**: Firebase (Firestore, Auth, Hosting)
-- **Deployment**: GitHub Pages
+## 🧰 Tech Stack Used
+
+| Technology    | Description                |
+| ------------- | -------------------------- |
+| 🔹 HTML/SCSS   | Frontend design and layout |
+| 🔸 JavaScript | Dynamic interaction logic  |
+| 🔹 Firebase   | Backend services & hosting |
+
+---
+
+## 🧩 Features
+
+### 👤 User Functionalities
+
+* 🔐 **User Registration & Login** (via email)
+* 🔄 **Cylinder Booking Requests** (standard + extra cylinders)
+* 📜 **Booking History** (full access to user's past transactions)
+* 📧 **Email Notifications** (transaction confirmation with Email.js)
+
+### 🛠️ Admin Functionalities
+
+* 📋 **View & Manage Users**
+* ✅ **Approve/Deny Booking Requests**
+
+---
+
+## 🚀 Deployment
+
+* 📋 **Deployed with GitHub**
+
+
+## 📊 Evaluation Metrics
+
+* ✅ **Modular Codebase** – Easy to extend and maintain.
+* 🔒 **Safe & Secure** – Follows Firebase authentication best practices.
+* 🧪 **Testable** – Designed to be easily testable at unit level.
+* 🌐 **Portable** – Works across major browsers and devices.
+
+---
+
+## 📌 Extra Notes
+
+* Ensure Firebase rules are properly configured.
+* Maintain clean Git commit messages.
+* Keep README and comments updated.
+
+---

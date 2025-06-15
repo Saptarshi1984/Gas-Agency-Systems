@@ -53,12 +53,24 @@ onAuthStateChanged(auth, async (user) => {
     window.location.href = "/GasAgency/index.html";
   }
 });
+
+
   //SignOut function
   logout.addEventListener('click', () => {    
 
     signOut(auth).then(() => {
-      // Sign-out successful.
-      /* alert('You are Signed Out.'); */
+
+      window.location.href = "/GasAgency/";
+    }).catch((error) => {
+      alert('An error occured:'+ error.Message);
+      // An error happened.
+    })
+  });
+
+    document.getElementById('mobileLogout').addEventListener('click', () => {    
+
+    signOut(auth).then(() => {
+
       window.location.href = "/GasAgency/";
     }).catch((error) => {
       alert('An error occured:'+ error.Message);
