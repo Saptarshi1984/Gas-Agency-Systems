@@ -1,9 +1,10 @@
 
 # 🛢️ Gas Agency System
 
-[Visit Homepage](https://saptarshi1984.github.io/GasAgency/)
-
 An online gas cylinder booking platform designed for client convenience and administrative efficiency. This system replaces the outdated, time-consuming phone call method with a modern web-based solution.
+👉 [Visit Homepage](https://saptarshi1984.github.io/GasAgency/)
+
+👉 [Project Documentaion Link](https://drive.google.com/file/d/1zhkJgFJPS4YAO2odVhvLA3yYcNrtYVhV/view?usp=drive_link) 
 
 ---
 
@@ -22,7 +23,7 @@ An online gas cylinder booking platform designed for client convenience and admi
 | ------------- | -------------------------- |
 | 🔹 HTML/SCSS   | Frontend design and layout |
 | 🔸 JavaScript | Dynamic interaction logic  |
-| 🔹 Firebase   | Backend services & hosting |
+| 🔹 Firebase   | Backend services |
 
 ---
 
