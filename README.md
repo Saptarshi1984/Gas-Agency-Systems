@@ -39,8 +39,9 @@ An online gas cylinder booking platform designed for client convenience and admi
 * 📜 **Booking History** (full access to user's past transactions)
 * 📧 **Email Notifications** (transaction confirmation with Email.js)
 
-### 🛠️ Admin Functionalities
+### 🛠️ Admin Functionalities 
 
+* 📋 **Credentials to Login** - admin@gmail.com, admin@123      
 * 📋 **View & Manage Users**
 * ✅ **Approve/Deny Booking Requests**
 
