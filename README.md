@@ -12,8 +12,10 @@ dY`% [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInkt
 
 ## Project Screenshots
 
-<img src="public/assets/Screenshot1.png" alt="Project homepage preview" width="600" />
-<img src="public/assets/Screenshot2.png" alt="Project booking flow preview" width="200" />
+<div align="center">
+  <img src="public/assets/Screenshot1.png" alt="Project homepage preview" width="600" />
+  <img src="public/assets/Screenshot2.png" alt="Project booking flow preview" width="200" />
+</div>
 
 ---
 
@@ -74,3 +76,4 @@ dY`% [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInkt
 * Keep README and comments updated.
 
 ---
+
