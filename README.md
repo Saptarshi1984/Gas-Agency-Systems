@@ -1,12 +1,12 @@
-﻿# dY>��,? Gas Agency System
+﻿# Gas Agency System
 
 An online gas cylinder booking platform designed for client convenience and administrative efficiency. This system replaces the outdated, time-consuming phone call method with a modern web-based solution.
 
 ---
 
-dY`% [Visit Homepage](https://saptarshi1984.github.io/GasAgency/)
+ [Visit Homepage](https://saptarshi1984.github.io/GasAgency/)
 
-dY`% [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInktZMgxFze3Fqv9v9NJCi/view?usp=drive_link) 
+ [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInktZMgxFze3Fqv9v9NJCi/view?usp=drive_link) 
 
 ---
 
@@ -28,9 +28,10 @@ dY`% [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInkt
   <img src="public/assets/Screenshot2.png" alt="Project booking flow preview" width="200" />
 </div>
 </details>
+
 ---
 
-## dYs? Project Objectives
+## Project Objectives
 
 * Simplify gas cylinder booking for customers via an online platform.
 * Enable admins to manage customer requests, bookings, and notifications.
@@ -39,7 +40,7 @@ dY`% [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInkt
 
 ---
 
-## dY� Tech Stack Used
+## Tech Stack Used
 
 | Technology    | Description                |
 | ------------- | -------------------------- |
@@ -49,38 +50,38 @@ dY`% [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInkt
 
 ---
 
-## dYc Features
+##  Features
 
-### dY` User Functionalities
+###  User Functionalities
 
-* dY"? **User Registration & Login** (via email)
-* dY", **Cylinder Booking Requests** (standard + extra cylinders)
-* dY"o **Booking History** (full access to user's past transactions)
-* dY" **Email Notifications** (transaction confirmation with Email.js)
+*  **User Registration & Login** (via email)
+*  **Cylinder Booking Requests** (standard + extra cylinders)
+*  **Booking History** (full access to user's past transactions)
+*  **Email Notifications** (transaction confirmation with Email.js)
 
-### dY>��,? Admin Functionalities 
+###  Admin Functionalities 
 
-* dY"< **Credentials to Login** - admin@gmail.com, admin@123      
-* dY"< **View & Manage Users**
-* �o. **Approve/Deny Booking Requests**
-
----
-
-## dYs? Deployment
-
-* dY"< **Deployed with GitHub**
-
-
-## dY"S Evaluation Metrics
-
-* �o. **Modular Codebase** �?" Easy to extend and maintain.
-* dY"' **Safe & Secure** �?" Follows Firebase authentication best practices.
-* dY� **Testable** �?" Designed to be easily testable at unit level.
-* dYO? **Portable** �?" Works across major browsers and devices.
+* **Credentials to Login** - admin@gmail.com, admin@123      
+* **View & Manage Users**
+* **Approve/Deny Booking Requests**
 
 ---
 
-## dY"O Extra Notes
+## Deployment
+
+* **Deployed with GitHub**
+
+
+## Evaluation Metrics
+
+* **Modular Codebase** �?" Easy to extend and maintain.
+* **Safe & Secure** �?" Follows Firebase authentication best practices.
+* **Testable** �?" Designed to be easily testable at unit level.
+* **Portable** �?" Works across major browsers and devices.
+
+---
+
+## Extra Notes
 
 * Ensure Firebase rules are properly configured.
 * Maintain clean Git commit messages.
