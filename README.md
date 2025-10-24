@@ -13,12 +13,13 @@ dY`% [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInkt
 ## Project Screenshots
 
 <div align="center">
+<p><b>Desktop</b></p>
   <img src="public/assets/Screenshot1.png" alt="Project homepage preview" width="600" />
   
 </div>
 
 <div align="center">
-  
+  <p><b>Desktop</b></p>
   <img src="public/assets/Screenshot2.png" alt="Project booking flow preview" width="200" />
 </div>
 
