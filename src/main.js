@@ -31,7 +31,7 @@ const statusMsg = document.getElementById('status');
         const user = userCredential.user;
         /* alert("You are in login"); */
 
-        window.location.href = '/GasAgency/dashboard.html';
+        window.location.href = 'dashboard.html';
       })
       .catch((error) => {
         console.error(error);
@@ -71,7 +71,7 @@ const statusMsg = document.getElementById('status');
       });
     }
 
-    window.location.href = '/GasAgency/dashboard.html';
+    window.location.href = 'dashboard.html';
 
   } catch (error) {
     const errorCode = error.code;
@@ -148,13 +148,12 @@ const statusMsg = document.getElementById('status');
 
       sessionStorage.setItem("AdminEmail", matched_admin.email);
 
-      window.location.href = '/GasAgency/admin.html';
+      window.location.href = 'admin.html';
     } else {
       alert.error('Invalid Credentials, Please try again');
     }
 
   })
-
 
 
 
