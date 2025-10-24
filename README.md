@@ -1,24 +1,23 @@
-﻿
-# ðŸ›¢ï¸ Gas Agency System
+﻿# dY>��,? Gas Agency System
 
 An online gas cylinder booking platform designed for client convenience and administrative efficiency. This system replaces the outdated, time-consuming phone call method with a modern web-based solution.
 
 ---
 
-ðŸ‘‰ [Visit Homepage](https://saptarshi1984.github.io/GasAgency/)
+dY`% [Visit Homepage](https://saptarshi1984.github.io/GasAgency/)
 
-ðŸ‘‰ [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInktZMgxFze3Fqv9v9NJCi/view?usp=drive_link) 
+dY`% [Project Documentaion Link](https://drive.google.com/file/d/1Su9I3mnl5tInktZMgxFze3Fqv9v9NJCi/view?usp=drive_link) 
 
 ---
 
 ## Project Screenshots
 
-![Project homepage preview](public/assets/Screenshot1.png)
-![Project booking flow preview](public/assets/Screenshot2.png)
+<img src="public/assets/Screenshot1.png" alt="Project homepage preview" width="600" />
+<img src="public/assets/Screenshot2.png" alt="Project booking flow preview" width="200" />
 
 ---
 
-## ðŸš€ Project Objectives
+## dYs? Project Objectives
 
 * Simplify gas cylinder booking for customers via an online platform.
 * Enable admins to manage customer requests, bookings, and notifications.
@@ -27,48 +26,48 @@ An online gas cylinder booking platform designed for client convenience and admi
 
 ---
 
-## ðŸ§° Tech Stack Used
+## dY� Tech Stack Used
 
 | Technology    | Description                |
 | ------------- | -------------------------- |
-| ðŸ”¹ HTML/SCSS   | Frontend design and layout |
-| ðŸ”¸ JavaScript | Dynamic interaction logic  |
-| ðŸ”¹ Firebase   | Backend services |
+| dY"1 HTML/SCSS   | Frontend design and layout |
+| dY", JavaScript | Dynamic interaction logic  |
+| dY"1 Firebase   | Backend services |
 
 ---
 
-## ðŸ§© Features
+## dYc Features
 
-### ðŸ‘¤ User Functionalities
+### dY` User Functionalities
 
-* ðŸ” **User Registration & Login** (via email)
-* ðŸ”„ **Cylinder Booking Requests** (standard + extra cylinders)
-* ðŸ“œ **Booking History** (full access to user's past transactions)
-* ðŸ“§ **Email Notifications** (transaction confirmation with Email.js)
+* dY"? **User Registration & Login** (via email)
+* dY", **Cylinder Booking Requests** (standard + extra cylinders)
+* dY"o **Booking History** (full access to user's past transactions)
+* dY" **Email Notifications** (transaction confirmation with Email.js)
 
-### ðŸ› ï¸ Admin Functionalities 
+### dY>��,? Admin Functionalities 
 
-* ðŸ“‹ **Credentials to Login** - admin@gmail.com, admin@123      
-* ðŸ“‹ **View & Manage Users**
-* âœ… **Approve/Deny Booking Requests**
-
----
-
-## ðŸš€ Deployment
-
-* ðŸ“‹ **Deployed with GitHub**
-
-
-## ðŸ“Š Evaluation Metrics
-
-* âœ… **Modular Codebase** â€“ Easy to extend and maintain.
-* ðŸ”’ **Safe & Secure** â€“ Follows Firebase authentication best practices.
-* ðŸ§ª **Testable** â€“ Designed to be easily testable at unit level.
-* ðŸŒ **Portable** â€“ Works across major browsers and devices.
+* dY"< **Credentials to Login** - admin@gmail.com, admin@123      
+* dY"< **View & Manage Users**
+* �o. **Approve/Deny Booking Requests**
 
 ---
 
-## ðŸ“Œ Extra Notes
+## dYs? Deployment
+
+* dY"< **Deployed with GitHub**
+
+
+## dY"S Evaluation Metrics
+
+* �o. **Modular Codebase** �?" Easy to extend and maintain.
+* dY"' **Safe & Secure** �?" Follows Firebase authentication best practices.
+* dY� **Testable** �?" Designed to be easily testable at unit level.
+* dYO? **Portable** �?" Works across major browsers and devices.
+
+---
+
+## dY"O Extra Notes
 
 * Ensure Firebase rules are properly configured.
 * Maintain clean Git commit messages.
